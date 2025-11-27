@@ -1,0 +1,2 @@
+{"id":"7b23b2ca-a21e-4638-a733-62f56e79de82","aggregateId":"1","type":"AccountOpened","data":{"owner":"nayan","initialBalance":100},"timestamp":"2025-11-26T06:45:29.057Z","version":1}
+{"id":"10efd3b7-e659-4d47-8bd0-a65ff5411081","aggregateId":"1","type":"MoneyDeposited","data":{"amount":50},"timestamp":"2025-11-26T06:45:38.252Z","version":2}
