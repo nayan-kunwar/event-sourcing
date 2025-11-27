@@ -1,4 +1,3 @@
-// index.js
 import express from "express";
 import {
   handleOpenAccount,
@@ -22,7 +21,7 @@ app.post("/accounts", async (req, res) => {
   try {
     const { accountId, owner, initialBalance } = req.body;
     const events = await handleOpenAccount({
-      accountId,
+      accountId,  
       owner,
       initialBalance,
     });

@@ -1,4 +1,3 @@
-// snapshots.js
 import fs from "fs/promises";
 const SNAPSHOT_FILE = "./snapshots.json";
 

@@ -1,4 +1,3 @@
-// projections.js
 import { loadAllEvents } from "./eventStore.js";
 
 // In-memory projection

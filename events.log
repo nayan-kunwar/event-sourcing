@@ -1,2 +1,3 @@
-{"id":"7b23b2ca-a21e-4638-a733-62f56e79de82","aggregateId":"1","type":"AccountOpened","data":{"owner":"nayan","initialBalance":100},"timestamp":"2025-11-26T06:45:29.057Z","version":1}
-{"id":"10efd3b7-e659-4d47-8bd0-a65ff5411081","aggregateId":"1","type":"MoneyDeposited","data":{"amount":50},"timestamp":"2025-11-26T06:45:38.252Z","version":2}
+{"id":"21551f47-6dfb-4b63-8371-cd18c1d64674","aggregateId":"1","type":"AccountOpened","data":{"owner":"nayan","initialBalance":100},"timestamp":"2025-11-27T13:34:37.608Z","version":1}
+{"id":"d8abc112-814f-48e7-862a-cf30b7a6777c","aggregateId":"1","type":"MoneyDeposited","data":{"amount":50},"timestamp":"2025-11-27T13:34:44.360Z","version":2}
+{"id":"97bc20cc-cdcb-41cb-925a-723c137fd6c5","aggregateId":"1","type":"MoneyWithdrawn","data":{"amount":10},"timestamp":"2025-11-27T13:36:02.762Z","version":3}

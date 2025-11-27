@@ -1,4 +1,3 @@
-// eventStore.js
 import fs from "fs";
 import { promisify } from "util";
 const appendFile = promisify(fs.appendFile);
@@ -8,6 +7,7 @@ const EVENTS_FILE = "./events.log"; // newline-delimited JSON events
 // Ensure file exists
 if (!fs.existsSync(EVENTS_FILE)) fs.writeFileSync(EVENTS_FILE, "");
 
+// Load all events for a specific aggregate (account) ID
 export async function loadEventsForAggregate(aggregateId) {
   const raw = await readFile(EVENTS_FILE, "utf8");
   if (!raw) return [];
@@ -16,6 +16,7 @@ export async function loadEventsForAggregate(aggregateId) {
   return events.filter((e) => String(e.aggregateId) === String(aggregateId));
 }
 
+// Load all events from the event store 
 export async function loadAllEvents() {
   const raw = await readFile(EVENTS_FILE, "utf8");
   console.log("raw: ", raw)
